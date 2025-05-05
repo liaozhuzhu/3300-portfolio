@@ -5,11 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Liao Zhu | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="cookie-popup.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Open Graph (used by Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="Liao Zhu | Portfolio">
+<meta property="og:description" content="CS + Math student passionate about building software that solves real problems.">
+<meta property="og:image" content="https://liaozhu.dev/favicon.png">
+<meta property="og:url" content="https://liaozhu.dev">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card (used by Twitter/X) -->
+<meta name="twitter:card" content="image">
+<meta name="twitter:title" content="Liao Zhu | Portfolio">
+<meta name="twitter:description" content="CS + Math student passionate about building software that solves real problems.">
+<meta name="twitter:image" content="https://liaozhu.dev/favicon.png">
 </head>
 <body>
   <header>
     <h1>Liao Zhu</h1>
     <p>CS + Math Double Major | Aspiring Software Engineer</p>
+    <p style="color: red; font-size: 15px">Note* this site is for BAIS:3300, if you're looking for my official site please visit: <a href="https://liaozhu.vercel.app/" target="_blank">https://liaozhu.vercel.app/</a></p>
   </header>
 
   <nav>
@@ -31,10 +46,27 @@
     </section>
   </main>
 
-  <footer>
+  <footer style="display: flex; justify-content: center; align-items: center">
     <p>&copy; 2025 Liao Zhu. All rights reserved.</p>
+    <p style="margin-left: 10px">
+        <a href="cookie-policy.html">Cookie Policy</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms and Conditions</a>
+    </p>
   </footer>
 
+  <div id="cookie-popup">
+    <p>
+      By using this site you agree to the storing of cookies on your device to
+      enhance site navigation and to analyze site usage. Learn more about our
+      <a href="cookie-policy.html">cookie policy</a>.
+    </p>
+    <p>
+      <button id="accept-cookies">Accept</button>
+    </p>
+  </div>
+
+  <script src="policy-popup.js"></script>
   <script src="script.js"></script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2GCPJHXPC"></script>
